@@ -66,7 +66,7 @@
 
 <p>This node transfers deformation from one geometry to another even when their topologies are different.<br>
 Plug your retopologized geometry on the left (first input) and the deforming geometry (usually bad topology) on the right (second input)<br>
-In case the transfer was not 100% successful tweak the amount of sample points to fix it.<br> (more is better, but slower)</p>
+In case the transfer was not precise, tweak the amount of sample points to fix it.<br> (more is better, but slower)</p>
 
 <p><b>Setup Example:</b>
 <br>Both tube are identical, but the second one was remeshed and deformed.</p>
