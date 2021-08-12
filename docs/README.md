@@ -43,7 +43,7 @@
 <ol>
 	<li>Open your Houdini file.</li>
 	<li>Go to "Assets > Install Asset Library..."</li>
-	<li>Select which asset you want to load using the load dialog <img src="./media/load_asset_button.jpg" alt="Houdini Load Asset Button" width="22"> (top right corner)</li>
+	<li>Select which asset you want to load using the load dialog (top right corner)</li>
 	<li>Click on "Install" or "Install and Create"</li>
     <li>Enjoy!</li>
 </ol>
