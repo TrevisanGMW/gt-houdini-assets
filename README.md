@@ -30,7 +30,6 @@
 
 </p>
 
-
 <h1> Description </h1>
 This is my collection of houdini digital assets (HDAs) for SideFX Houdini or Houdini Engine – These assets were created with the aim of automating, simplifying or filling the missing details of what I find lacking in Houdini.
 
@@ -56,7 +55,7 @@ Hopefully these assets are helpful to you as they are to me.
     <li>Enjoy!</li>
 </ol>
 
-<h3>🔧 One Time Use:</h3>
+<h3>🪓 One Time Use:</h3>
 <ol>
 	<li>Open your Houdini file.</li>
 	<li>Go to "Assets > Install Asset Library..."</li>
@@ -74,4 +73,4 @@ Hopefully these assets are helpful to you as they are to me.
 </ol>
 
 <h1> Licensing </h1>
-The MIT License 2020 - Guilherme Trevisan
+The MIT License 2021 - Guilherme Trevisan
