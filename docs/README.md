@@ -48,6 +48,7 @@
 	<li>Select the asset you want to load.</li>
 	<li>Enjoy!</li>
 </ol>
+<br>
 
 
 <!-- GT Transfer Deformation -->
@@ -58,7 +59,7 @@
 
 <p>This node transfers deformation from one geometry to another even when their topologies are different.<br>
 Plug your retopologized geometry on the left (first input) and the deforming geometry (usually bad topology) on the right (second input)<br>
-In case the transfer was not 100% successful tweak the amount of sample points to fix it. (more is better, but slower)</p>
+In case the transfer was not 100% successful tweak the amount of sample points to fix it.<br> (more is better, but slower)</p>
 
 <p><b>Setup Example:</b>
 <br>Both tube are identical, but the second one was remeshed and deformed.</p>
@@ -66,6 +67,18 @@ In case the transfer was not 100% successful tweak the amount of sample points t
      alt="GT Transfer Deformation Sample Animated">
 <img src="./media/gt_transfer_deformation_use.jpg"
      alt="GT Transfer Deformation Use Example">
+
+<br>
+</div>
+
+<!-- GT Snowy Geometry -->
+<div>
+<h1> GT Snowy Geometry </h1>
+<img src="./media/gt_snowy_geometry.jpg" align="right"
+     alt="GT Snowy Geometry Node">
+
+<p>Makes input geometry look like it's covered in snow. 
+<br>It uses the normal of your input to determine what direction it should place points, and convert this points into a mesh that resembles snow.</p>
 
 <br>
 </div>
