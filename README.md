@@ -7,7 +7,7 @@
 <p align="center"> 
 <a href="https://github.com/TrevisanGMW/gt-houdini-assets/graphs/contributors">
 <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/TrevisanGMW/gt-houdini-assets.svg?style=flat-square" ></a>
-<img alt="GitHub language count" src="https://img.shields.io/github/languages/count/TrevisanGMW/gt-houdini-assets?style=flat-square">
+<!--<img alt="GitHub language count" src="https://img.shields.io/github/languages/count/TrevisanGMW/gt-houdini-assets?style=flat-square">-->
 <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/TrevisanGMW/gt-houdini-assets?style=flat-square">
 
 <a href="https://github.com/TrevisanGMW/gt-houdini-assets/network/members">
@@ -31,14 +31,15 @@
 </p>
 
 <h1> Description </h1>
-This is my collection of houdini digital assets (HDAs) for SideFX Houdini or Houdini Engine – These assets were created with the aim of automating, simplifying or filling the missing details of what I find lacking in Houdini.
-
-After installing the asset collection, you’ll find a submenu containing all the new assets. If you can't find it, make sure you're under the correct context (for example SOP, or DOP)
-
+<p>This is my collection of houdini digital assets (HDAs) for SideFX Houdini or Houdini Engine – These assets were created with the aim of automating, simplifying or to be used as a learning tool. None of them are encrypted (black boxes), so you can deconstruct and change them in whatever way necessary.
+</p>
+<p>After installing the asset collection, you’ll find a submenu containing all the new assets. If you can't find it, make sure you're under the correct context (for example SOP, or DOP)
+</p>
+<p>
 For help on how to use these assets, check the documentation by going to the <a href="./docs">"docs"</a> folder. For changelog read the text under help.
 All of these items are supplied as is. You alone are solely responsible for any issues. Use at your own risk. 
 Hopefully these assets are helpful to you as they are to me.
-
+</p>
 <p><b>Tested using SideFX Houdini 18.5 (Windows 10)</b></p>
 
 <h1> Organization </h1>
