@@ -98,8 +98,7 @@ In case the transfer was not 100% successful tweak the amount of sample points t
 
 <p>This node will automatically extract a shape from an alpha (black an white) image and convert it into a plane.<br>
 Plug your black and white image under "Image Trace" and your color texture under "Image Color" then initialize the UVs.</p>
-<img src="./media/gt_snowy_geometry_sample.jpg"
-     alt="GT Snowy Geometry Sample">
+
 <br>
 </div>
 
