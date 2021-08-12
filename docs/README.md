@@ -70,9 +70,9 @@ In case the transfer was not 100% successful tweak the amount of sample points t
 <p><b>Setup Example:</b>
 <br>Both tube are identical, but the second one was remeshed and deformed.</p>
 <img src="./media/gt_transfer_deformation_sample.gif"
-     alt="GT Transfer Deformation Sample Animated" height="300">
+     alt="GT Transfer Deformation Sample Animated">
 <img src="./media/gt_transfer_deformation_use.jpg"
-     alt="GT Transfer Deformation Use Example" height="300">
+     alt="GT Transfer Deformation Use Example">
 
 <br><br>
 </div>
