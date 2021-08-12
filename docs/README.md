@@ -16,6 +16,11 @@
   <li><a href="#-gt-transfer-deformation-">GT Transfer Deformation</a></li>
   <li><a href="#-gt-snowy-geometry-">GT Snowy Geometry</a></li>
 </ul>
+<h3><b>Test Geometry:</b></h3>
+<ul>
+  <li><a href="#-gt-test-geometry-tree-">GT Test Geometry Tree</a></li>
+  <li><a href="#-gt-test-geometry-rocket-">GT Test Geometry Rocket</a></li>
+</ul>
 </div>
 <br>
 </div>
@@ -37,7 +42,7 @@
 <ol>
 	<li>Open your Houdini file.</li>
 	<li>Go to "Assets > Install Asset Library..."</li>
-	<li>Select which asset you want to load using the load dialog (top right corner)</li>
+	<li>Select which asset you want to load using the load dialog <img src="./media/load_asset_button.jpg" alt="Houdini Load Asset Button"> (top right corner)</li>
 	<li>Click on "Install" or "Install and Create"</li>
     <li>Enjoy!</li>
 </ol>
@@ -80,6 +85,28 @@ In case the transfer was not 100% successful tweak the amount of sample points t
 
 <p>Makes input geometry look like it's covered in snow. 
 <br>It uses the normal of your input to determine what direction it should place points, and convert this points into a mesh that resembles snow.</p>
+
+<br>
+</div>
+
+<!-- GT Test Geometry Tree -->
+<div>
+<h1> GT Test Geometry Tree </h1>
+<img src="./media/gt_test_geometry_tree.jpg" align="right"
+     alt="GT Test Geometry Tree Node">
+
+<p>Creates a stylized cartoon tree as a test geometry.</p>
+
+<br>
+</div>
+
+<!-- GT Test Geometry Rocket -->
+<div>
+<h1> GT Test Geometry Rocket </h1>
+<img src="./media/gt_test_geometry_rocket.jpg" align="right"
+     alt="GT Test Geometry Rocket Node">
+
+<p>Creates a stylized rocket as a test geometry.</p>
 
 <br>
 </div>
