@@ -99,7 +99,8 @@ In case the transfer was not precise, tweak the amount of sample points to fix i
 
 <p>This node will automatically extract a shape from an alpha (black an white) image and convert it into a plane.<br>
 Plug your black and white image under "Image Trace" and your color texture under "Image Color" then initialize the UVs.</p>
-
+<img src="./media/gt_trace_to_plane_sample.jpg"
+     alt="GT Trace To Plane Sample">
 <br>
 </div>
 
@@ -110,7 +111,8 @@ Plug your black and white image under "Image Trace" and your color texture under
      alt="GT Test Geometry Tree Node">
 
 <p>Creates a stylized cartoon tree as a test geometry.</p>
-
+<img src="./media/gt_test_geometry_tree_sample.jpg"
+     alt="GT Test Geometry Tree Sample">
 <br>
 </div>
 
@@ -121,7 +123,8 @@ Plug your black and white image under "Image Trace" and your color texture under
      alt="GT Test Geometry Rocket Node">
 
 <p>Creates a stylized rocket as a test geometry.</p>
-
+<img src="./media/gt_test_geometry_rocket_sample.jpg"
+     alt="GT Test Geometry Rocket Sample">
 <br>
 </div>
 
