@@ -32,9 +32,9 @@
 
 <h1> Description </h1>
 This is my collection of houdini digital assets (HDAs) for SideFX Houdini or Houdini Engine – These assets were created with the aim of automating, simplifying or to be used as a learning tool. None of them are encrypted (black boxes), so you can deconstruct and change them in whatever way necessary.
-
+<br>
 After installing the asset collection, you’ll find a submenu containing all the new assets. If you can't find it, make sure you're under the correct context (for example SOP, or DOP)
-
+<br>
 For help on how to use these assets, check the documentation by going to the <a href="./docs">"docs"</a> folder. For changelog read the text under help.
 All of these items are supplied as is. You alone are solely responsible for any issues. Use at your own risk. 
 Hopefully these assets are helpful to you as they are to me.
