@@ -49,9 +49,9 @@ Hopefully these assets are helpful to you as they are to me.
 <h1> Installation </h1>
 <h3>🧰 Make Assets Always Available:</h3>
 <ol>
-	<li>Move your assets to a safe location. (e.g. "Documents > My Houdini Assets")</li>
+	<li>Move your assets to a permanent safe location. (e.g. "Documents > my-houdini-assets")</li>
 	<li>Open your "houdini.env" file (Located in "Documents > houdini##.#") using a text editor.</li>
-	<li>Add a line defining a variable called "HOUDINI_OTLSCAN_PATH" pointing to the assets folder.<br> For example: <code>HOUDINI_OTLSCAN_PATH = E:/Documents/</code></li>
+	<li>Add a line defining a variable called "HOUDINI_OTLSCAN_PATH" pointing to the assets folder.<br> For example: <code>HOUDINI_OTLSCAN_PATH = C:/my-houdini-assets/</code> (Use forward slashes)</li>
 	<li>Restart Houdini.</li>
     <li>Enjoy!</li>
 </ol>
