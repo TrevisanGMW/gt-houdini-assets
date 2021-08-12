@@ -14,6 +14,7 @@
 <h3><b>Geometry Operators:</b></h3>
 <ul>
   <li><a href="#-gt-transfer-deformation-">GT Transfer Deformation</a></li>
+  <li><a href="#-gt-snowy-geometry-">GT Snowy Geometry</a></li>
 </ul>
 </div>
 <br>
@@ -68,7 +69,7 @@ In case the transfer was not 100% successful tweak the amount of sample points t
 <img src="./media/gt_transfer_deformation_use.jpg"
      alt="GT Transfer Deformation Use Example">
 
-<br>
+<br><br>
 </div>
 
 <!-- GT Snowy Geometry -->
