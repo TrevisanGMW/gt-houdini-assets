@@ -42,7 +42,7 @@
 <ol>
 	<li>Open your Houdini file.</li>
 	<li>Go to "Assets > Install Asset Library..."</li>
-	<li>Select which asset you want to load using the load dialog <img src="./media/load_asset_button.jpg" alt="Houdini Load Asset Button"> (top right corner)</li>
+	<li>Select which asset you want to load using the load dialog <img src="./media/load_asset_button.jpg" alt="Houdini Load Asset Button" width="15"> (top right corner)</li>
 	<li>Click on "Install" or "Install and Create"</li>
     <li>Enjoy!</li>
 </ol>
@@ -85,7 +85,8 @@ In case the transfer was not 100% successful tweak the amount of sample points t
 
 <p>Makes input geometry look like it's covered in snow. 
 <br>It uses the normal of your input to determine what direction it should place points, and convert this points into a mesh that resembles snow.</p>
-
+<img src="./media/gt_snowy_geometry_sample.jpg"
+     alt="GT Snowy Geometry Sample">
 <br>
 </div>
 
