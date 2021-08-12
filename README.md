@@ -32,7 +32,7 @@
 
 
 <h1> Description </h1>
-This is my collection of houdini digital assets (HDAs) for SideFX Houdini – These assets were created with the aim of automating, simplifying or filling the missing details of what I find lacking in Houdini.
+This is my collection of houdini digital assets (HDAs) for SideFX Houdini or Houdini Engine – These assets were created with the aim of automating, simplifying or filling the missing details of what I find lacking in Houdini.
 
 After installing the asset collection, you’ll find a submenu containing all the new assets. If you can't find it, make sure you're under the correct context (for example SOP, or DOP)
 
@@ -45,3 +45,33 @@ Hopefully these assets are helpful to you as they are to me.
 <h1> Organization </h1>
 <p><code>assets</code>: contains houdini digital asset (HDA) files</p>
 <p><code>docs</code>: contains documentation about the assets</p>
+
+<h1> Installation </h1>
+<h3>🧰 Make Assets Always Available:</h3>
+<ol>
+	<li>Move your assets to a safe location. (e.g. "Documents > My Houdini Assets")</li>
+	<li>Open your "houdini.env" file (Located in "Documents > houdini##.#") using a text editor.</li>
+	<li>Add a line defining a variable called "HOUDINI_OTLSCAN_PATH" pointing to the assets folder.<br> For example: <code>HOUDINI_OTLSCAN_PATH = E:/Documents/</code></li>
+	<li>Restart Houdini.</li>
+    <li>Enjoy!</li>
+</ol>
+
+<h3>🔧 One Time Use:</h3>
+<ol>
+	<li>Open your Houdini file.</li>
+	<li>Go to "Assets > Install Asset Library..."</li>
+	<li>Select which asset you want to load using the load dialog (top right corner)</li>
+	<li>Click on "Install" or "Install and Create"</li>
+    <li>Enjoy!</li>
+</ol>
+
+<h3>📲 Using Houdini Engine (Maya):</h3>
+<ol>
+	<li>Load Houdini Engine.</li>
+	<li>Go to "Houdini Engine > Load Asset..."</li>
+	<li>Select the asset you want to load.</li>
+	<li>Enjoy!</li>
+</ol>
+
+<h1> Licensing </h1>
+The MIT License 2020 - Guilherme Trevisan
