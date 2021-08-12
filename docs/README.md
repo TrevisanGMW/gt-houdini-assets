@@ -27,7 +27,7 @@
 <ol>
 	<li>Move your assets to a permanent safe location. (e.g. "Documents > my-houdini-assets")</li>
 	<li>Open your "houdini.env" file (Located in "Documents > houdini##.#") using a text editor.</li>
-	<li>Add a line defining a variable called "HOUDINI_OTLSCAN_PATH" pointing to the assets folder.<br> For example: <code>HOUDINI_OTLSCAN_PATH = C:/my-houdini-assets/</code> (Use forward slashes)</li>
+	<li>Add a line defining a variable called "HOUDINI_OTLSCAN_PATH" pointing to the assets folder.<br> For example: <code>HOUDINI_OTLSCAN_PATH = C:/my-houdini-assets;&</code> (Use forward slashes)</li>
 	<li>Restart Houdini.</li>
     <li>Enjoy!</li>
 </ol>
@@ -56,12 +56,15 @@
 <img src="./media/gt_transfer_deformation.jpg" align="right"
      alt="GT Transfer Deformation Node">
 
-<p>Place Holder</p>
+<p>This node transfers deformation from one geometry to another even when their topologies are different.<br>
+Plug your retopologized geometry on the left (first input) and the deforming geometry (usually bad topology) on the right (second input)<br>
+In case the transfer was not 100% successful tweak the amount of sample points to fix it. (more is better, but slower)</p>
 
-<p><b>Place Holder.</p>
-<img src="./media/gt_transfer_deformation_sample.gif" align="right"
+<p><b>Setup Example:</b>
+<br>Both tube are identical, but the second one was remeshed and deformed.</p>
+<img src="./media/gt_transfer_deformation_sample.gif"
      alt="GT Transfer Deformation Sample Animated">
-<img src="./media/gt_transfer_deformation_use.jpg" align="right"
+<img src="./media/gt_transfer_deformation_use.jpg"
      alt="GT Transfer Deformation Use Example">
 
 <br>
