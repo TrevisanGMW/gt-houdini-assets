@@ -138,7 +138,9 @@ Plug your black and white image under "Image Trace" and your color texture under
 <img src="./media/gt_shrinking_particles.jpg" align="right"
      alt="GT Shrinking Particles Node">
 
-<p>Quickly generates a simple volume fog with parameters to customize Y and Z ramps, noise and mixing methods.</p>
+<p>Uses the "@age" and "@life" to gradually decrease the size of "@pscale" so it looks like the particle is shrinking. <br>
+A POP network already provides you with such attributes, just make sure to update the "Life Expectancy" under the "Birth" tab.<br>
+By default, Houdini will not show the "@pscale" attribute on the viewport, so use the option "Output Test Spheres" for a preview. </p>
 <img src="./media/gt_shrinking_particles_sample.gif"
      alt="GT Shrinking Particles Sample">
 <img src="./media/gt_shrinking_particles_disintegration.gif"
