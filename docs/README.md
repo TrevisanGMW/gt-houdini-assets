@@ -18,6 +18,7 @@
   <li><a href="#-gt-trace-to-plane-">GT Trace To Plane</a></li>
   <li><a href="#-gt-convert-to-cloud-">GT Convert To Cloud</a></li>
   <li><a href="#-gt-quick-fog-">GT Quick Fog</a></li>
+  <li><a href="#-gt-shrinking-particles-">GT Shrinking Particles</a></li>
 </ul>
 <h3><b>Test Geometry:</b></h3>
 <ul>
@@ -128,6 +129,22 @@ Plug your black and white image under "Image Trace" and your color texture under
 <p>Quickly generates a simple volume fog with parameters to customize Y and Z ramps, noise and mixing methods.</p>
 <img src="./media/gt_quick_fog_sample.jpg"
      alt="GT Quick Fog Sample">
+<br>
+</div>
+
+<!-- GT Shrinking Particles-->
+<div>
+<h1> GT Shrinking Particles </h1>
+<img src="./media/gt_shrinking_particles.jpg" align="right"
+     alt="GT Shrinking Particles Node">
+
+<p>Uses the "@age" and "@life" to gradually decrease the size of "@pscale" so it looks like the particle is shrinking. <br>
+A POP network already provides you with such attributes, just make sure to update the "Life Expectancy" under the "Birth" tab.<br>
+By default, Houdini will not show the "@pscale" attribute on the viewport, so use the option "Output Test Spheres" for a preview. </p>
+<img src="./media/gt_shrinking_particles_sample.gif"
+     alt="GT Shrinking Particles Sample">
+<img src="./media/gt_shrinking_particles_disintegration.gif"
+     alt="GT Shrinking Particles Disintegration">
 <br>
 </div>
 
