@@ -16,11 +16,14 @@
   <li><a href="#-gt-transfer-deformation-">GT Transfer Deformation</a></li>
   <li><a href="#-gt-snowy-geometry-">GT Snowy Geometry</a></li>
   <li><a href="#-gt-trace-to-plane-">GT Trace To Plane</a></li>
+  <li><a href="#-gt-convert-to-cloud-">GT Convert To Cloud</a></li>
+  <li><a href="#-gt-quick-fog-">GT Quick Fog</a></li>
 </ul>
 <h3><b>Test Geometry:</b></h3>
 <ul>
   <li><a href="#-gt-test-geometry-tree-">GT Test Geometry Tree</a></li>
   <li><a href="#-gt-test-geometry-rocket-">GT Test Geometry Rocket</a></li>
+  <li><a href="#-gt-test-geometry-balloon-">GT Test Geometry Balloon</a></li>
 </ul>
 </div>
 <br>
@@ -104,6 +107,30 @@ Plug your black and white image under "Image Trace" and your color texture under
 <br>
 </div>
 
+<!-- GT Convert To Cloud -->
+<div>
+<h1> GT Convert To Cloud </h1>
+<img src="./media/gt_convert_to_cloud.jpg" align="right"
+     alt="GT Convert To Cloud Node">
+
+<p>This node will converts the input geometry into volumes that look like clouds. Very similar to the cloud and cloud noise nodes that come with Houdini, but with a few different options and controls.</p>
+<img src="./media/gt_convert_to_cloud_sample.jpg"
+     alt="GT Convert To Cloud Sample">
+<br>
+</div>
+
+<!-- GT Quick Fog-->
+<div>
+<h1> GT Quick Fog </h1>
+<img src="./media/gt_quick_fog.jpg" align="right"
+     alt="GT Quick Fog Node">
+
+<p>Quickly generates a simple volume fog with parameters to customize Y and Z ramps, noise and mixing methods.</p>
+<img src="./media/gt_quick_fog_sample.jpg"
+     alt="GT Quick Fog Sample">
+<br>
+</div>
+
 <!-- GT Test Geometry Tree -->
 <div>
 <h1> GT Test Geometry Tree </h1>
@@ -125,6 +152,18 @@ Plug your black and white image under "Image Trace" and your color texture under
 <p>Creates a stylized rocket as a test geometry.</p>
 <img src="./media/gt_test_geometry_rocket_sample.jpg"
      alt="GT Test Geometry Rocket Sample">
+<br>
+</div>
+
+<!-- GT Test Geometry Balloon -->
+<div>
+<h1> GT Test Geometry Balloon </h1>
+<img src="./media/gt_test_geometry_balloon.jpg" align="right"
+     alt="GT Test Geometry Balloon Node">
+
+<p>Creates a stylized balloon as a test geometry.</p>
+<img src="./media/gt_test_geometry_balloon_sample.jpg"
+     alt="GT Test Geometry Balloon Sample">
 <br>
 </div>
 
