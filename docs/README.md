@@ -16,8 +16,8 @@
   <li><a href="#-gt-transfer-deformation-">GT Transfer Deformation</a></li>
   <li><a href="#-gt-snowy-geometry-">GT Snowy Geometry</a></li>
   <li><a href="#-gt-trace-to-plane-">GT Trace To Plane</a></li>
-  <li><a href="#-gt-convert-to-cloud-">GT Trace To Plane</a></li>
-  <li><a href="#-gt-quick-fog-">GT Trace To Plane</a></li>
+  <li><a href="#-gt-convert-to-cloud-">GT Convert To Cloud</a></li>
+  <li><a href="#-gt-quick-fog-">GT Quick Fog</a></li>
 </ul>
 <h3><b>Test Geometry:</b></h3>
 <ul>
