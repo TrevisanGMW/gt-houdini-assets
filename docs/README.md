@@ -16,6 +16,8 @@
   <li><a href="#-gt-transfer-deformation-">GT Transfer Deformation</a></li>
   <li><a href="#-gt-snowy-geometry-">GT Snowy Geometry</a></li>
   <li><a href="#-gt-trace-to-plane-">GT Trace To Plane</a></li>
+  <li><a href="#-gt-convert-to-cloud-">GT Trace To Plane</a></li>
+  <li><a href="#-gt-quick-fog-">GT Trace To Plane</a></li>
 </ul>
 <h3><b>Test Geometry:</b></h3>
 <ul>
@@ -101,6 +103,30 @@ In case the transfer was not precise, tweak the amount of sample points to fix i
 Plug your black and white image under "Image Trace" and your color texture under "Image Color" then initialize the UVs.</p>
 <img src="./media/gt_trace_to_plane_sample.jpg"
      alt="GT Trace To Plane Sample">
+<br>
+</div>
+
+<!-- GT Convert To Cloud -->
+<div>
+<h1> GT Convert To Cloud </h1>
+<img src="./media/gt_convert_to_cloud.jpg" align="right"
+     alt="GT Convert To Cloud Node">
+
+<p>This node will converts the input geometry into volumes that look like clouds. Very similar to the cloud and cloud noise nodes that come with Houdini, but with a few different options and controls.</p>
+<img src="./media/gt_convert_to_cloud_sample.jpg"
+     alt="GT Convert To Cloud Sample">
+<br>
+</div>
+
+<!-- GT Quick Fog-->
+<div>
+<h1> GT Quick Fog </h1>
+<img src="./media/gt_quick_fog.jpg" align="right"
+     alt="GT Quick Fog Node">
+
+<p>Quickly generates a simple volume fog with parameters to customize Y and Z ramps and mixing methods.</p>
+<img src="./media/gt_quick_fog_sample.jpg"
+     alt="GT Quick Fog Sample">
 <br>
 </div>
 
