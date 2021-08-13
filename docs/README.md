@@ -124,7 +124,7 @@ Plug your black and white image under "Image Trace" and your color texture under
 <img src="./media/gt_quick_fog.jpg" align="right"
      alt="GT Quick Fog Node">
 
-<p>Quickly generates a simple volume fog with parameters to customize Y and Z ramps and mixing methods.</p>
+<p>Quickly generates a simple volume fog with parameters to customize Y and Z ramps, noise and mixing methods.</p>
 <img src="./media/gt_quick_fog_sample.jpg"
      alt="GT Quick Fog Sample">
 <br>
@@ -151,6 +151,18 @@ Plug your black and white image under "Image Trace" and your color texture under
 <p>Creates a stylized rocket as a test geometry.</p>
 <img src="./media/gt_test_geometry_rocket_sample.jpg"
      alt="GT Test Geometry Rocket Sample">
+<br>
+</div>
+
+<!-- GT Test Geometry Balloon -->
+<div>
+<h1> GT Test Geometry Balloon </h1>
+<img src="./media/gt_test_geometry_balloon.jpg" align="right"
+     alt="GT Test Geometry Balloon Node">
+
+<p>Creates a stylized balloon as a test geometry.</p>
+<img src="./media/gt_test_geometry_balloon_sample.jpg"
+     alt="GT Test Geometry Balloon Sample">
 <br>
 </div>
 
