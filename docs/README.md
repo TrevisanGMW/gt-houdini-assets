@@ -139,9 +139,9 @@ Plug your black and white image under "Image Trace" and your color texture under
      alt="GT Shrinking Particles Node">
 
 <p>Quickly generates a simple volume fog with parameters to customize Y and Z ramps, noise and mixing methods.</p>
-<img src="./media/gt_shrinking_particles_sample.jpg"
+<img src="./media/gt_shrinking_particles_sample.gif"
      alt="GT Shrinking Particles Sample">
-<img src="./media/gt_shrinking_particles_disintegration.jpg"
+<img src="./media/gt_shrinking_particles_disintegration.gif"
      alt="GT Shrinking Particles Disintegration">
 <br>
 </div>
