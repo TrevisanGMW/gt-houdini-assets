@@ -23,6 +23,7 @@
 <ul>
   <li><a href="#-gt-test-geometry-tree-">GT Test Geometry Tree</a></li>
   <li><a href="#-gt-test-geometry-rocket-">GT Test Geometry Rocket</a></li>
+  <li><a href="#-gt-test-geometry-balloon-">GT Test Geometry Balloon</a></li>
 </ul>
 </div>
 <br>
