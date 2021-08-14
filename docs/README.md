@@ -140,9 +140,9 @@ Plug your black and white image under "Image Trace" and your color texture under
 <img src="./media/gt_quick_snow.jpg" align="right"
      alt="GT Quick Snow Node">
 
-<p>Quickly generates a simple particle system a few parameters to customize its behaviour.
-<br>This node requires a sprite sheet to work. You can find a few examples in the in the <a href="./sprite_sheets">"sprite_sheets"</a> folder.
-<br>To create one go into the IMG context and create a "Mosaic" node to convert a sequence of images.
+<p>Quickly generates a simple particle system with a few parameters to customize its behaviour.
+<br>This node requires a sprite sheet to work. You can find a few examples in the <a href="./sprite_sheets">"sprite_sheets"</a> folder.
+<br>To create new sprite sheets go into the IMG context and create a "Mosaic" node to convert a sequence of images into one sheet.
 <br>Since this node uses sprites, it also requires the user to create a Sprite Fog material and assign it to the geometry with the correct sprite sheet path before being able to render it.</p>
 <img src="./media/gt_quick_snow_sample.gif"
      alt="GT Quick Snow Sample">
