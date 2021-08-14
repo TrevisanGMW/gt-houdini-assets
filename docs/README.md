@@ -6,7 +6,7 @@
 <!-- Table of Contents -->
 <div>
 <h1> Table of Contents </h1>
-<a href="https://github.com/TrevisanGMW/gt-tools"><img src="./media/gt_hda_logo.png" align="right" alt="GT Tools Logo" width="400"></a>
+<a href="https://github.com/TrevisanGMW/gt-houdini-assets"><img src="./media/gt_hda_logo.png" align="right" alt="GT Tools Logo" width="400"></a>
 <h3><b>General:</b></h3>
 <ul>
   <li><a href="#installation">Installation</a></li>
@@ -19,6 +19,7 @@
   <li><a href="#-gt-convert-to-cloud-">GT Convert To Cloud</a></li>
   <li><a href="#-gt-quick-fog-">GT Quick Fog</a></li>
   <li><a href="#-gt-shrinking-particles-">GT Shrinking Particles</a></li>
+  <li><a href="#-gt-voxelizer-">GT Voxelizer</a></li>
 </ul>
 <h3><b>Test Geometry:</b></h3>
 <ul>
@@ -145,6 +146,21 @@ By default, Houdini will not show the "@pscale" attribute on the viewport, so us
      alt="GT Shrinking Particles Sample">
 <img src="./media/gt_shrinking_particles_disintegration.gif"
      alt="GT Shrinking Particles Disintegration">
+<br>
+</div>
+
+<!-- GT Voxelizer-->
+<div>
+<h1> GT Voxelizer </h1>
+<img src="./media/gt_voxelizer.jpg" align="right"
+     alt="GT Voxelizer Node">
+
+<p>Converts the input geometry into a series of cubes that look like voxels. 
+<br>The second input can be used to determine a custom shape for your "voxels".
+<br> The "Inherit Input Point Color" can be used to transfer the color to the voxels, but it expects to find the attribute "@Cd" stored in Points. If your geometry has textures, use "Attribute from Map" to transfer it into the "@Cd" attribute.</p>
+<img src="./media/gt_voxelizer_sample.jpg"
+     alt="GT Voxelizer Sample">
+
 <br>
 </div>
 
