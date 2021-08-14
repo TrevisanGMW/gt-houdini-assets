@@ -6,7 +6,7 @@
 <!-- Table of Contents -->
 <div>
 <h1> Table of Contents </h1>
-<a href="https://github.com/TrevisanGMW/gt-tools"><img src="./media/gt_hda_logo.png" align="right" alt="GT Tools Logo" width="400"></a>
+<a href="https://github.com/TrevisanGMW/gt-houdini-assets"><img src="./media/gt_hda_logo.png" align="right" alt="GT Tools Logo" width="400"></a>
 <h3><b>General:</b></h3>
 <ul>
   <li><a href="#installation">Installation</a></li>
@@ -18,7 +18,9 @@
   <li><a href="#-gt-trace-to-plane-">GT Trace To Plane</a></li>
   <li><a href="#-gt-convert-to-cloud-">GT Convert To Cloud</a></li>
   <li><a href="#-gt-quick-fog-">GT Quick Fog</a></li>
+  <li><a href="#-gt-quick-snow-">GT Quick Snow</a></li>
   <li><a href="#-gt-shrinking-particles-">GT Shrinking Particles</a></li>
+  <li><a href="#-gt-voxelizer-">GT Voxelizer</a></li>
 </ul>
 <h3><b>Test Geometry:</b></h3>
 <ul>
@@ -132,6 +134,23 @@ Plug your black and white image under "Image Trace" and your color texture under
 <br>
 </div>
 
+<!-- GT Quick Snow-->
+<div>
+<h1> GT Quick Snow </h1>
+<img src="./media/gt_quick_snow.jpg" align="right"
+     alt="GT Quick Snow Node">
+
+<p>Quickly generates a simple particle system with a few parameters to customize its behaviour.
+<br>This requires a sprite sheet to work. You can find examples in the <a href="./sprite_sheets">"sprite_sheets"</a> folder.
+<br>To create new sprite sheets go into the IMG context and create a "Mosaic" node to convert a sequence of images into one sheet.
+<br>Since this node uses sprites, it also requires the user to create a Sprite Fog material and assign it to the geometry with the correct sprite sheet path before being able to render it.</p>
+<img src="./media/gt_quick_snow_sample.gif"
+     alt="GT Quick Snow Sample">
+<img src="./media/gt_quick_snow_letters.gif"
+     alt="GT Quick Snow Sample">
+<br>
+</div>
+
 <!-- GT Shrinking Particles-->
 <div>
 <h1> GT Shrinking Particles </h1>
@@ -145,6 +164,21 @@ By default, Houdini will not show the "@pscale" attribute on the viewport, so us
      alt="GT Shrinking Particles Sample">
 <img src="./media/gt_shrinking_particles_disintegration.gif"
      alt="GT Shrinking Particles Disintegration">
+<br>
+</div>
+
+<!-- GT Voxelizer-->
+<div>
+<h1> GT Voxelizer </h1>
+<img src="./media/gt_voxelizer.jpg" align="right"
+     alt="GT Voxelizer Node">
+
+<p>Converts the input geometry into a series of cubes that look like voxels. 
+<br>The second input can be used to determine a custom shape for your "voxels".
+<br> The "Inherit Input Point Color" can be used to transfer the color to the voxels, but it expects to find the attribute "@Cd" stored in Points. If your geometry has textures, use "Attribute from Map" to transfer it into the "@Cd" attribute.</p>
+<img src="./media/gt_voxelizer_sample.jpg"
+     alt="GT Voxelizer Sample">
+
 <br>
 </div>
 
