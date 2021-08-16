@@ -31,7 +31,7 @@
 </p>
 
 <h1> Description </h1>
-<p>This is my collection of houdini digital assets (HDAs) for SideFX Houdini or Houdini Engine – These assets were created with the aim of automating, simplifying or to be used as a learning tool. None of them are encrypted (black boxes), so you can deconstruct and change them in whatever way necessary.
+<p>This is my collection of houdini digital assets (HDAs) for SideFX Houdini or Houdini Engine – These assets were created with the aim of automating, simplifying or to be used as a learning tool. None of them are encrypted (black boxes), so you can deconstruct and so you can learn from them or change them in whatever way necessary.
 </p>
 <p>After installing the asset collection, you’ll find a submenu containing all the new assets. If you can't find it, make sure you're under the correct context (for example SOP, or DOP)
 </p>
