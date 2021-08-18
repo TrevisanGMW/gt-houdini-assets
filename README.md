@@ -45,6 +45,7 @@ Hopefully these assets are helpful to you as they are to me.
 <h1> Organization </h1>
 <p><code>assets</code>: contains houdini digital asset (HDA) files</p>
 <p><code>docs</code>: contains documentation about the assets</p>
+<p><code>packages</code>: contains a json file used to define asset variables</p>
 
 <h1> Installation </h1>
 <h3>🧰 Make Assets Always Available:</h3>
