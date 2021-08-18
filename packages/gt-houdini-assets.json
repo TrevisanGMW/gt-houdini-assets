@@ -6,10 +6,7 @@
             "GTLIB": "PATHPLACEHOLDER",
         },
         {
-            "GTOTL": "$GTLIB/assets",
-        },
-        {
-            "HOUDINI_OTLSCAN_PATH": "$GTOTL;$HOUDINI_OTLSCAN_PATH",
+            "HOUDINI_OTLSCAN_PATH": "$GTLIB;$HOUDINI_OTLSCAN_PATH",
         },
     ],
     
