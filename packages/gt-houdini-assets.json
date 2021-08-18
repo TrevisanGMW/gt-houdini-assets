@@ -1,0 +1,19 @@
+{
+    "recommends": "houdini_version >= '17.5.321'",
+
+    "env": [
+        {
+            "GTLIB": "PATHPLACEHOLDER",
+        },
+        {
+            "GTOTL": "$GTLIB/assets",
+        },
+        {
+            "HOUDINI_OTLSCAN_PATH": "$GTOTL;$HOUDINI_OTLSCAN_PATH",
+        },
+    ],
+    
+    "path": "$GTLIB",
+}
+
+
