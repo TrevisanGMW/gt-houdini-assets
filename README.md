@@ -60,6 +60,7 @@ Here is how you do it in more details:
 	<li>Open "setup.bat". (It will show you the options - "Install, Uninstall and About")</li>
 	<li>Type "1" to "Install", then press enter.</li>
 	<li>Open Houdini.</li>
+	<li>Enjoy!</li>
 </ol>
 
 If you want, you can now delete the downloaded/extracted files (as they have already been installed)
